@@ -1,0 +1,75 @@
+*{
+
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
+header{
+  font-size: 10px;
+}
+
+header img{
+  max-width: 50%;
+}
+body{
+  background: white;
+
+}
+.button{
+  width:140px;
+  height:30px;
+  background: white;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  display:absolute;
+  margin: 0px 50px 0 50px;
+  border-radius: 50px;
+  transition-duration: 0.4s;
+}
+
+  .addToOrder{
+  display : block;
+  margin: auto;
+  width:140px;
+  height:30px;
+  background: white;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.wrapper{
+  width: 280px;
+  margin: 0 auto;
+
+}
+
+.wrapper img{
+  max-width: 100%;
+}
+
+
+.button:hover {
+  background-color: hsl(0, 0%, 80%); /* Green */
+  color: black;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-family: helvetica;
+}
+
+
+header{
+  background:gold;
+  height:115px;
+  text-align: center;
+  font-size: 80px;
+  color: red;
+}
+.collect{
+  background:white;
+}
